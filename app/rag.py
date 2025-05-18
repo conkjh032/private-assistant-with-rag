@@ -5,10 +5,6 @@ from langchain_core.runnables import RunnableLambda, RunnableMap
 from langchain_core.prompts import PromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
-# from huggingface_hub import login
-#
-#
-# login("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")
 
 # 1. 임베딩 모델 설정
 embedding_model = HuggingFaceEmbeddings(

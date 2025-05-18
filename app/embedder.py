@@ -10,10 +10,6 @@ from chromadb.config import Settings
 import os
 from nltk.tokenize import sent_tokenize
 from pathlib import Path
-from huggingface_hub import login
-
-
-# login("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")
 
 nltk.download("punkt_tab")
 
